@@ -94,6 +94,12 @@ static const CGFloat scalePersent = 0.8;
     [self.centerViewController.view addGestureRecognizer:pan];
 }
 
+- (void)setLeftWidthPersent:(CGFloat)leftWidthPersent{
+    
+    _leftWidthPersent = leftWidthPersent;
+    self.leftViewController.view.width =  kScreenWith*self.leftWidthPersent;
+}
+
 #pragma mark -- PrivateMethod
 - (void)panGesture:(UIPanGestureRecognizer *)pan{
     
