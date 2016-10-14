@@ -15,6 +15,10 @@
 		047048381DAF545400B603F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047048361DAF545400B603F1 /* LaunchScreen.storyboard */; };
 		047048431DAF545400B603F1 /* SuperLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047048421DAF545400B603F1 /* SuperLinkTests.m */; };
 		0470484E1DAF545400B603F1 /* SuperLinkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0470484D1DAF545400B603F1 /* SuperLinkUITests.m */; };
+		0470485D1DAF77F800B603F1 /* YPContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0470485C1DAF77F800B603F1 /* YPContentViewController.m */; };
+		047048601DAF7C5600B603F1 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0470485F1DAF7C5600B603F1 /* CenterViewController.m */; };
+		047048631DAF7C6000B603F1 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047048621DAF7C6000B603F1 /* LeftViewController.m */; };
+		047048661DAF7F6600B603F1 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 047048651DAF7F6600B603F1 /* UIViewExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		047048491DAF545400B603F1 /* SuperLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0470484D1DAF545400B603F1 /* SuperLinkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperLinkUITests.m; sourceTree = "<group>"; };
 		0470484F1DAF545400B603F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0470485B1DAF77F800B603F1 /* YPContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPContentViewController.h; sourceTree = "<group>"; };
+		0470485C1DAF77F800B603F1 /* YPContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPContentViewController.m; sourceTree = "<group>"; };
+		0470485E1DAF7C5600B603F1 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		0470485F1DAF7C5600B603F1 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		047048611DAF7C6000B603F1 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		047048621DAF7C6000B603F1 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		047048641DAF7F6600B603F1 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		047048651DAF7F6600B603F1 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +115,16 @@
 			children = (
 				0470482B1DAF545400B603F1 /* AppDelegate.h */,
 				0470482C1DAF545400B603F1 /* AppDelegate.m */,
+				0470485B1DAF77F800B603F1 /* YPContentViewController.h */,
+				0470485C1DAF77F800B603F1 /* YPContentViewController.m */,
+				0470485E1DAF7C5600B603F1 /* CenterViewController.h */,
+				0470485F1DAF7C5600B603F1 /* CenterViewController.m */,
+				047048611DAF7C6000B603F1 /* LeftViewController.h */,
+				047048621DAF7C6000B603F1 /* LeftViewController.m */,
 				0470482E1DAF545400B603F1 /* ViewController.h */,
 				0470482F1DAF545400B603F1 /* ViewController.m */,
+				047048641DAF7F6600B603F1 /* UIViewExt.h */,
+				047048651DAF7F6600B603F1 /* UIViewExt.m */,
 				047048311DAF545400B603F1 /* Main.storyboard */,
 				047048341DAF545400B603F1 /* Assets.xcassets */,
 				047048361DAF545400B603F1 /* LaunchScreen.storyboard */,
@@ -276,9 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047048661DAF7F6600B603F1 /* UIViewExt.m in Sources */,
 				047048301DAF545400B603F1 /* ViewController.m in Sources */,
 				0470482D1DAF545400B603F1 /* AppDelegate.m in Sources */,
 				0470482A1DAF545400B603F1 /* main.m in Sources */,
+				047048631DAF7C6000B603F1 /* LeftViewController.m in Sources */,
+				0470485D1DAF77F800B603F1 /* YPContentViewController.m in Sources */,
+				047048601DAF7C5600B603F1 /* CenterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +451,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F87F3BAZ2S;
 				INFOPLIST_FILE = SuperLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ypwl.SuperLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F87F3BAZ2S;
 				INFOPLIST_FILE = SuperLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ypwl.SuperLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +540,7 @@
 				047048541DAF545400B603F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047048551DAF545400B603F1 /* Build configuration list for PBXNativeTarget "SuperLinkTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +549,7 @@
 				047048571DAF545400B603F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047048581DAF545400B603F1 /* Build configuration list for PBXNativeTarget "SuperLinkUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +558,7 @@
 				0470485A1DAF545400B603F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
